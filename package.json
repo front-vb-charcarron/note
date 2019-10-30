@@ -6,9 +6,9 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "commit": "bash commit.sh",
-    "update": "bash update.sh"
+    "deploy": "bash ./shell/deploy.sh",
+    "commit": "bash ./shell/commit.sh",
+    "update": "bash ./shell/update.sh"
   },
   "keywords": [],
   "author": "",
