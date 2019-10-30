@@ -12,7 +12,7 @@
 
 ## 禁止 options 请求
 + options 请求无法禁用或取消， 只能通过服务端对 options 请求做出正确回应，这样才能保证 options 请求之后，put、post 等请求才可以被发出，如果 options 请求不满足，则可以返回403取消接下来的原有 put/post 请求。
-+ 设置 `Access-Control-Max-Age: 秒数`
++ 设置 `Access-Control-Max-Age: 秒数` ，缓存 options 请求，每隔设置的时间才触发 options 请求。
 :::tip
  `403 Forbidden` 是HTTP协议中的一个状态码(Status Code)。可以简单的理解为没有权限访问此站，该状态表示服务器理解了本次请求但是拒绝执行该任务。
 :::
