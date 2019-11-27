@@ -1,5 +1,7 @@
 # 站在巨人的肩膀上
 
+## 收藏的文章
+
 * [用Nodejs开发命令行工具](https://juejin.im/post/59b73c9df265da06670c5868)
 * [基于node.js的脚手架工具开发经历](https://juejin.im/post/5a31d210f265da431a43330e)
 * [前端图片转base64，转格式，转blob，上传的总结](https://blog.csdn.net/wangzhanzheng/article/details/78923013)
@@ -23,3 +25,10 @@
 * [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn)
 * [冴羽的博客](https://github.com/mqyqingfeng/Blog)
 * [Node 调试工具入门教程](http://www.ruanyifeng.com/blog/2018/03/node-debugger.html)
+
+## 大佬们的博客
+* [淘系前端团队](https://fed.taobao.org/)
+* [奇舞团](https://75team.com/)
+* [百度FEX](http://fex.baidu.com/)
+* [京东aotu](https://aotu.io/notes/)
+* [腾讯alloyteam](http://www.alloyteam.com/)

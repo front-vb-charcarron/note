@@ -12,6 +12,7 @@ module.exports = {
     nav: [
       { text: 'HTML', link: '/html/block.html' },
       { text: 'CSS', link: '/css/layout/css.html' },
+      { text: 'JS', link: '/js/javascript.html' },
       { text: 'VUE', link: '/vue/experience.html' },
       { text: 'NODE', link: '/node/WhatIsNode.js.html' },
       { text: 'HTTP', link: '/http/http.html' },
@@ -39,7 +40,8 @@ module.exports = {
         title: 'JavaScript',
         children: [
           '/js/javascript',
-          '/js/variate'
+          '/js/variate',
+          '/js/tools'
         ]
       },
       {
