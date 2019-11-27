@@ -28,7 +28,7 @@ const hasEmptyValue = obj => {
     function _hasEmptyValue(o) {
         if (isEmptyObject(o)) return true;
         for (let k in o) {
-            if (result) break; // 发现控制后停止递归
+            if (result) break; // 发现空值后停止递归
             if (typeof o[k] === 'object') {
                 result = _hasEmptyValue(o[k]) || result;
             } else {
