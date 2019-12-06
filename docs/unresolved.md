@@ -55,3 +55,13 @@
     });
 ```
 
+## 2. 问最后的打印结果
+```javascript
+
+    var a = 1;
+    (function a() {
+        a = 2;
+        console.log(a);
+    })()
+```
+
