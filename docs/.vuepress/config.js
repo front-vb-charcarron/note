@@ -44,6 +44,7 @@ module.exports = {
           '/js/tools'
         ]
       },
+      '/regExp',
       {
         title: 'Node',
         children: [

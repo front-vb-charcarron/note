@@ -48,7 +48,7 @@ xhr.send(Qs.stringify({
 ### express 的做法：
 1. 接口方面使用的是 `express` ，可通过 `res.query` 获取参数。
 2. 添加 `"Content-Type": "application/x-download"` 响应头。
-3. 添加 `"Content-Disposition": attachment; filename=filename}` 响应头来定义下载文件名。
+3. 添加 `"Content-Disposition": attachment; filename=filename` 响应头来定义下载文件名。
 4. 通过流把文件流到 `res` 具体代码：`fs.createReadStream(文件详细路径).pipe(res)` 。
 
 ### koa 的做法：
